@@ -1,18 +1,24 @@
 import React from 'react'
-import Image from "next/image";
 import '../../styles/Navbar/navbar.css';
 
 const NavbarPage = () => {
   return (
     <div>
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={300}
-          height={100}
-          priority
-        />
+        <div className='nav-container'>
+                <img className="image" src='amazone-white-logo.png' alt=" "/>
+                    <p>Update Location</p>
+
+            <div>
+                <p>Hello, sign in</p>
+                <p>Accounts and Lists</p>
+            </div>
+            <div>
+                <p>Returns</p>
+                <p>& Orders</p>
+            </div>
+
+        </div>
+
     </div>
   )
 }
